@@ -31,6 +31,7 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <h2>Cookies</h2>
+<p>Please make sure that you click the "Open in a new tab" button if you're on CodeSandbox, otherwise this won't work.</p>
 <button on:click={callAPI}>Call API</button>
 {#each cookies as cookie}
 	<p>{cookie.name} = {cookie.value}</p>
