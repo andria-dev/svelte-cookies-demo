@@ -839,6 +839,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cookie-store@npm:next":
+  version: 4.0.0-next.2
+  resolution: "cookie-store@npm:4.0.0-next.2"
+  checksum: 7fda399272ad8f7e97894f5e45f33ca83af8cc3b575293acb24c2317f2ded701a8dea4280356130c6c0a4c056ae907baa409d937519901b20d9108dd26f7a713
+  languageName: node
+  linkType: hard
+
 "cookie@npm:^0.5.0":
   version: 0.5.0
   resolution: "cookie@npm:0.5.0"
@@ -2571,6 +2578,7 @@ __metadata:
     "@sveltejs/kit": ^1.5.0
     "@typescript-eslint/eslint-plugin": ^5.45.0
     "@typescript-eslint/parser": ^5.45.0
+    cookie-store: next
     eslint: ^8.28.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-svelte: ^2.26.0

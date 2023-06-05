@@ -28,5 +28,8 @@
 		"vite": "^4.3.0"
 	},
 	"type": "module",
-	"packageManager": "yarn@3.6.0"
+	"packageManager": "yarn@3.6.0",
+	"dependencies": {
+		"cookie-store": "next"
+	}
 }
