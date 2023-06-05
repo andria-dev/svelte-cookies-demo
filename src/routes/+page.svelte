@@ -20,8 +20,9 @@
 	let cookies: Cookie[] = [];
 	let cookieStore: CookieStore;
 	onMount(() => {
-		import('cookie-store').then((module) => {
+		import('cookie-store').then(async (module) => {
 			cookieStore = module.cookieStore;
+			cookies = await cookieStore.getAll();
 		});
 	});
 </script>
